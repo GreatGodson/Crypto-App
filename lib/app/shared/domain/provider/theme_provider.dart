@@ -1,7 +1,7 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class DarkModeNotifier extends StateNotifier<bool> {
-  DarkModeNotifier() : super(false);
+  DarkModeNotifier() : super(true);
 
   void toggle() {
     state = !state;

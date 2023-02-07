@@ -23,6 +23,7 @@ Design inspiration [Youtube](https://www.youtube.com/watch?v=howT44GSk_Y&list=WL
 | <img src="assets/screenshots/detailScreenDark.png" width="500">   | <img src="assets/screenshots/detailScreenBright.png" width="500">   |
 
 
+
 ## Contributions
 
 🎉 Feel free to contribute to this project.

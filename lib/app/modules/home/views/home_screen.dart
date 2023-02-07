@@ -28,6 +28,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         elevation: 0.0,
         actions: [
           Switch.adaptive(
+              key: const Key('switch_key'),
               activeColor: AppColors.switchActiveColor,
               value: darkMode,
               onChanged: (val) {
@@ -40,6 +41,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       ),
       body: allCurrency.when(done: (currencyData) {
         return ListView.builder(
+            key: const Key('list_view_builder'),
             itemCount: currencyData.data.length,
             itemBuilder: (context, index) {
               List<ChartDataModel> chartData = ChartData.getChartData(
