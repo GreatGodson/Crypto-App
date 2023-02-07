@@ -45,7 +45,7 @@ class CustomSliverPersistentHeader extends StatelessWidget {
                 '＄${currencyData.data[index].quote.usd.price.toStringAsFixed(2)}',
                 style: Theme.of(context)
                     .textTheme
-                    .headline5!
+                    .headlineSmall!
                     .copyWith(fontSize: 30),
               ),
               Text(

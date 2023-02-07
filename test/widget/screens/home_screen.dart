@@ -1,8 +1,4 @@
-import 'dart:math';
-
 import 'package:crypto_app/app/modules/home/views/home_screen.dart';
-import 'package:crypto_app/app/shared/utils/theme/theme_data.dart';
-import 'package:crypto_app/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';

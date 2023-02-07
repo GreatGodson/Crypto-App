@@ -11,11 +11,11 @@ class MyThemes {
       color: AppColors.darkThemePrimaryColor,
     ),
     textTheme: const TextTheme(
-      headline5: TextStyle(
+      headlineSmall: TextStyle(
         color: AppColors.whiteColor,
         fontWeight: FontWeight.w500,
       ),
-      subtitle2: TextStyle(color: AppColors.whiteColor, fontSize: 16),
+      titleSmall: TextStyle(color: AppColors.whiteColor, fontSize: 16),
     ),
   );
 
@@ -30,17 +30,17 @@ class MyThemes {
       ),
     ),
     textTheme: const TextTheme(
-        headline5: TextStyle(
+        headlineSmall: TextStyle(
           color: AppColors.blackColor,
           fontWeight: FontWeight.w500,
         ),
-        subtitle1: TextStyle(
+        titleMedium: TextStyle(
           color: AppColors.whiteColor,
           fontWeight: FontWeight.w500,
         ),
-        bodyText2: TextStyle(
+        bodyMedium: TextStyle(
           color: AppColors.whiteColor,
         ),
-        subtitle2: TextStyle(color: AppColors.blackColor, fontSize: 16)),
+        titleSmall: TextStyle(color: AppColors.blackColor, fontSize: 16)),
   );
 }

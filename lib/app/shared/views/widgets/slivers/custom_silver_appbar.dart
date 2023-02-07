@@ -52,8 +52,10 @@ class CustomSliverAppBar extends StatelessWidget {
           child: ListTile(
             title: Text(
               "${currencyData.data[index].name} ${currencyData.data[index].symbol} #${currencyData.data[index].cmcRank}",
-              style:
-                  Theme.of(context).textTheme.headline5!.copyWith(fontSize: 22),
+              style: Theme.of(context)
+                  .textTheme
+                  .headlineSmall!
+                  .copyWith(fontSize: 22),
               overflow: TextOverflow.ellipsis,
             ),
             leading: SizedBox(

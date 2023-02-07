@@ -14,7 +14,7 @@ class ToggleButton extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Text(
           name,
-          style: Theme.of(context).textTheme.bodyText1,
+          style: Theme.of(context).textTheme.bodyLarge,
         ),
       ),
     );

@@ -37,7 +37,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           const XBox(15),
         ],
         title: Text(AppStrings.cryptoCurrency,
-            style: Theme.of(context).textTheme.headline5!),
+            style: Theme.of(context).textTheme.headlineSmall!),
       ),
       body: allCurrency.when(done: (currencyData) {
         return ListView.builder(
@@ -54,7 +54,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       }, error: (err) {
         return Center(
           child: Text(AppStrings.somethingWentWrong,
-              style: Theme.of(context).textTheme.headline5),
+              style: Theme.of(context).textTheme.headlineSmall),
         );
       }, loading: () {
         return const Center(child: CupertinoActivityIndicator());

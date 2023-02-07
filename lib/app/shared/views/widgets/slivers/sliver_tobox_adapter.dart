@@ -35,12 +35,12 @@ class CustomSliverToBoxAdapter extends StatelessWidget {
                   children: [
                     Text(
                       AppStrings.circulatingSupply,
-                      style: Theme.of(context).textTheme.subtitle2,
+                      style: Theme.of(context).textTheme.titleSmall,
                     ),
                     Text(
                       currencyData.data[index].circulatingSupply
                           .toStringAsFixed(2),
-                      style: Theme.of(context).textTheme.subtitle2,
+                      style: Theme.of(context).textTheme.titleSmall,
                     ),
                   ],
                 ),
@@ -50,13 +50,13 @@ class CustomSliverToBoxAdapter extends StatelessWidget {
                   children: [
                     Text(
                       AppStrings.maxSupply,
-                      style: Theme.of(context).textTheme.subtitle2,
+                      style: Theme.of(context).textTheme.titleSmall,
                     ),
                     Text(
                       currencyData.data[index].maxSupply == null
                           ? currencyData.data[index].maxSupply.toString()
                           : '0',
-                      style: Theme.of(context).textTheme.subtitle2,
+                      style: Theme.of(context).textTheme.titleSmall,
                     ),
                   ],
                 ),
@@ -66,11 +66,11 @@ class CustomSliverToBoxAdapter extends StatelessWidget {
                   children: [
                     Text(
                       AppStrings.marketPairs,
-                      style: Theme.of(context).textTheme.subtitle2,
+                      style: Theme.of(context).textTheme.titleSmall,
                     ),
                     Text(
                       currencyData.data[index].numMarketPairs.toString(),
-                      style: Theme.of(context).textTheme.subtitle2,
+                      style: Theme.of(context).textTheme.titleSmall,
                     ),
                   ],
                 ),
@@ -80,11 +80,11 @@ class CustomSliverToBoxAdapter extends StatelessWidget {
                   children: [
                     Text(
                       AppStrings.marketCap,
-                      style: Theme.of(context).textTheme.subtitle2,
+                      style: Theme.of(context).textTheme.titleSmall,
                     ),
                     Text(
                       currencyData.data[index].quote.usd.marketCap.toString(),
-                      style: Theme.of(context).textTheme.subtitle2,
+                      style: Theme.of(context).textTheme.titleSmall,
                     ),
                   ],
                 ),

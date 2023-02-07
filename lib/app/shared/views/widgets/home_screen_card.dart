@@ -69,22 +69,24 @@ class HomeScreenCryptoCard extends StatelessWidget {
                               .toLowerCase(),
                       placeholder: (context, url) =>
                           const CircularProgressIndicator(),
-                      errorWidget: (context, url, error) => SvgPicture.asset(
-                        AssetStrings.dollarSvg,
-                        color: AppColors.whiteColor,
-                        height: 60,
-                      ),
+                      errorWidget: (context, url, error) {
+                        return SvgPicture.asset(
+                          AssetStrings.dollarSvg,
+                          color: AppColors.whiteColor,
+                          height: 60,
+                        );
+                      },
                     ),
                   ),
                   const YBox(4),
                   Text(
                     currencyData.data[index].symbol,
-                    style: Theme.of(context).textTheme.subtitle1,
+                    style: Theme.of(context).textTheme.titleMedium,
                   ),
                   const YBox(2),
                   Text(
                     '＄${currencyData.data[index].quote.usd.price.toStringAsFixed(2)}',
-                    style: Theme.of(context).textTheme.bodyText2,
+                    style: Theme.of(context).textTheme.bodyMedium,
                   ),
                 ],
               ),
@@ -135,7 +137,7 @@ class HomeScreenCryptoCard extends StatelessWidget {
                     "${currencyData.data[index].quote.usd.percentChange7D.toStringAsFixed(2)}%",
                     style: Theme.of(context)
                         .textTheme
-                        .bodyText2!
+                        .bodyMedium!
                         .copyWith(fontWeight: FontWeight.bold),
                   ),
                 ),
