@@ -23,6 +23,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   Widget build(BuildContext context) {
     final allCurrency = ref.useProviderFamily(getCardProvider, '');
     final darkMode = ref.watch(darkModeProvider);
+
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,

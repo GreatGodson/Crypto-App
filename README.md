@@ -28,7 +28,7 @@ Design inspiration [Youtube](https://www.youtube.com/watch?v=howT44GSk_Y&list=WL
 
 🎉 Feel free to contribute to this project.
 
-If you find a bug or want a feature and don't know how to fix, implement or go about it, please fill an [issue](https://github.com/GreatGodson/ice_app/issues) .
+If you find a bug or want a feature and don't know how to fix, implement or go about it, please fill an [issue](https://github.com/GreatGodson/Crypto-App/issues) .
 
-If you fixed a bug or implemented a feature, please send a [pull request](https://github.com/GreatGodson/ice_app/pulls).
+If you fixed a bug or implemented a feature, please send a [pull request](https://github.com/GreatGodson/Crypto-App/pulls).
 
